@@ -139,4 +139,43 @@ button {
 .banner-box {
   background-image: url(../image/bunner.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.banner-title {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.banner-title span {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-decoration: uppercase;
+  font-weight: 600;
+  background-color: #f37335;
+  border-radius: 14px;
+  padding: 5px 0;
+  max-width: 96px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.banner-text {
+  color: #faf9f9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 353;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+.banner-link {
+  text-transform: uppercase;
+  color: #1e2f40;
+  font-size: 14px;
+  padding: 20px 27px;
+  background-color: #fbb731;
+  border-radius: 5px;
 }
