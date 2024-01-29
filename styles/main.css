@@ -140,7 +140,8 @@ button {
   background-image: url(../image/bunner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px;
+  padding: 100px 100px 120px;
+  margin-bottom: 100px;
 }
 .banner-title {
   color: #ffffff;
@@ -178,4 +179,28 @@ button {
   padding: 20px 27px;
   background-color: #fbb731;
   border-radius: 5px;
+}
+.menu-header {
+  display: flex; /*  для того чтобы элементы были в одну строку*/
+  align-items: center; /*ЧТобы рассположение текста было по центру*/
+  justify-content: space-between; /* чтобы элементы стояли отдельно друг от друга*/
+}
+.menu-title {
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1b2a49;
+  margin: 0;
+}
+.menu-select {
+  border: 1px solid #dedede;
+  padding: 10px 30px;
+  border-radius: 22px;
+  font-size: 15px;
+  appearance: none; /*убрать стрелку есть в выпадающем списке*/
+  flex-basis: 279px;
+  background-image: url(../image/errow.svg);
+  background-size: 12.79px 7.75px;
+  background-repeat: no-repeat;
+  background-position: 95% center;
 }
